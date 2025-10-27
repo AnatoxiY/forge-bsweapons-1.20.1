@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "brawl_stars_weapons:item/shelly_ultimate_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "brawl_stars_weapons:item/shelly_ultimate_2d"
+    },
+    "fixed": {
+      "parent": "brawl_stars_weapons:item/shelly_ultimate_2d"
+    }
+  }
+}

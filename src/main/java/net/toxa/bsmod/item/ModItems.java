@@ -13,6 +13,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> SHELLYATT = ITEMS.register("shelly_attack",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SHELLYULT = ITEMS.register("shelly_ultimate",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

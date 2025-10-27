@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.toxa.bsmod.item.ModCreativeModTabs;
 import net.toxa.bsmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -26,6 +27,8 @@ public class BS_mod
     public BS_mod(FMLJavaModLoadingContext context) {
 
         IEventBus modEventBus = context.getModEventBus();
+
+        ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 
@@ -44,6 +47,7 @@ public class BS_mod
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.SHELLYATT);
+            event.accept(ModItems.SHELLYULT);
         }
     }
 
