@@ -14,9 +14,10 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BS_mod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> BS_WEAPONS_TAB = CREATIVE_MODE_TABS.register("bs_mod_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SHELLYATT.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STARDROP.get()))
                     .title(Component.translatable("creativetab.bs_mod_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.STARDROP.get());
                         output.accept(ModItems.SHELLYATT.get());
                         output.accept(ModItems.SHELLYULT.get());
 
