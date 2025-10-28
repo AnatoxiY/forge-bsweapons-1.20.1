@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.toxa.bsmod.block.ModBlocks;
 import net.toxa.bsmod.item.ModCreativeModTabs;
 import net.toxa.bsmod.item.ModItems;
 import org.slf4j.Logger;
@@ -31,6 +32,7 @@ public class BS_mod
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

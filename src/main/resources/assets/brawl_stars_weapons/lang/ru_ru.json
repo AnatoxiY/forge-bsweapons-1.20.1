@@ -1,7 +1,10 @@
 {
-  "item.brawl_stars_weapons.stardrop": "Стардроп",
+  "item.brawl_stars_weapons.starrdrop": "Стардроп",
   "item.brawl_stars_weapons.shelly_attack": "Атака Шелли",
   "item.brawl_stars_weapons.shelly_ultimate": "Ульта Шелли",
+
+  "block.brawl_stars_weapons.map_box_block": "Мапмейкер коробка",
+  "block.brawl_stars_weapons.map_grass_block": "Мапмейкер кучст",
 
 
   "creativetab.bs_mod_tab": "Оружия Бравл Старс"

@@ -1,7 +1,10 @@
 {
-  "item.brawl_stars_weapons.stardrop": "Stardrop",
+  "item.brawl_stars_weapons.starrdrop": "Starrdrop",
   "item.brawl_stars_weapons.shelly_attack": "Shelly attack",
   "item.brawl_stars_weapons.shelly_ultimate": "Shelly ultimate attack",
+
+  "block.brawl_stars_weapons.map_box_block": "Map Maker box block",
+  "block.brawl_stars_weapons.map_grass_block": "Map Maker bush block",
 
 
   "creativetab.bs_mod_tab": "Brawl Stars Weapons"

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "brawl_stars_weapons:block/map_grass_block"
+  }
+}
