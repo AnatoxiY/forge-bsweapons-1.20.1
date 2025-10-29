@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " # ",
+    "#@#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "brawl_stars_weapons:coin"
+    },
+    "@": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "brawl_stars_weapons:map_box_block"
+  }
+}

@@ -19,6 +19,11 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.bs_mod_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.STARRDROP.get());
+                        output.accept(ModItems.COIN.get());
+                        output.accept(ModItems.POWER_POINT.get());
+                        output.accept(ModItems.CREDIT.get());
+                        output.accept(ModItems.BLING.get());
+                        output.accept(ModItems.GEM.get());
                         output.accept(ModBlocks.MAP_BOX_BLOCK.get());
                         output.accept(ModBlocks.MAP_GRASS_BLOCK.get());
                         output.accept(ModItems.SHELLYATT.get());

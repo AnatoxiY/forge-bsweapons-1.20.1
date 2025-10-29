@@ -2,9 +2,14 @@
   "item.brawl_stars_weapons.starrdrop": "Стардроп",
   "item.brawl_stars_weapons.shelly_attack": "Атака Шелли",
   "item.brawl_stars_weapons.shelly_ultimate": "Ульта Шелли",
+  "item.brawl_stars_weapons.coin": "Монета",
+  "item.brawl_stars_weapons.power_point": "Очко силы",
+  "item.brawl_stars_weapons.credit": "Кредит",
+  "item.brawl_stars_weapons.bling": "Блинг",
+  "item.brawl_stars_weapons.gem": "Гем",
 
   "block.brawl_stars_weapons.map_box_block": "Мапмейкер коробка",
-  "block.brawl_stars_weapons.map_grass_block": "Мапмейкер кучст",
+  "block.brawl_stars_weapons.map_grass_block": "Мапмейкер куст",
 
 
   "creativetab.bs_mod_tab": "Оружия Бравл Старс"

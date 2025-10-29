@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "brawl_stars_weapons:map_box_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "brawl_stars_weapons:blocks/map_box_block"
+}
