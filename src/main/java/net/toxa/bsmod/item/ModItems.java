@@ -12,7 +12,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, BS_mod.MOD_ID);
 
     public static final RegistryObject<Item> STARRDROP = ITEMS.register("starrdrop",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(16)));
 
     public static final RegistryObject<Item> COIN = ITEMS.register("coin",
             () -> new Item(new Item.Properties()));
@@ -25,9 +25,9 @@ public class ModItems {
     public static final RegistryObject<Item> GEM = ITEMS.register("gem",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SHELLYATT = ITEMS.register("shelly_attack",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> SHELLYULT = ITEMS.register("shelly_ultimate",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
